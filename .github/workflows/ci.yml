@@ -67,7 +67,7 @@ jobs:
 
       - name: Run Bandit
         run: |
-          bandit -r . -x tests || true                                                                    
+          bandit -r . -x tests                                                                   
 
 
   build:
